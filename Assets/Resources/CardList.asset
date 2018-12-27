@@ -1,0 +1,599 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 174c9e13400373f4d8597a67dc4ed0f0, type: 3}
+  m_Name: CardList
+  m_EditorClassIdentifier: 
+  cardList:
+  - picture: 01.png
+    id: 1
+    sqid: 1
+    icon: {fileID: 21300000, guid: 8c527c4a670d134459273b936dbfd1e5, type: 3}
+    CardSquare: {fileID: 0}
+    price: 60
+    rent: 2
+    fullrent: 4
+    homesbuilt: 0
+    hotelsbuilt: 0
+    homeprice: 50
+    hotelprice: 50
+    rentwith1home: 10
+    rentwith2homes: 30
+    rentwith3homes: 90
+    rentwith4homes: 160
+    rentwith1hotel: 250
+    allcolorsbought: 0
+    CanBuilt: 0
+    owner: {fileID: 0}
+    SameColour: []
+    SameC: 01000000
+    isMortage: 0
+  - picture: 02.png
+    id: 2
+    sqid: 3
+    icon: {fileID: 21300000, guid: 90818272db67c6e42abda743031839b7, type: 3}
+    CardSquare: {fileID: 0}
+    price: 60
+    rent: 4
+    fullrent: 8
+    homesbuilt: 0
+    hotelsbuilt: 0
+    homeprice: 50
+    hotelprice: 50
+    rentwith1home: 20
+    rentwith2homes: 60
+    rentwith3homes: 180
+    rentwith4homes: 320
+    rentwith1hotel: 450
+    allcolorsbought: 0
+    CanBuilt: 0
+    owner: {fileID: 0}
+    SameColour: []
+    SameC: 00000000
+    isMortage: 0
+  - picture: 03.png
+    id: 3
+    sqid: 6
+    icon: {fileID: 21300000, guid: 02a13821829c7ee46a1d3d6ebe56e060, type: 3}
+    CardSquare: {fileID: 0}
+    price: 100
+    rent: 6
+    fullrent: 12
+    homesbuilt: 0
+    hotelsbuilt: 0
+    homeprice: 50
+    hotelprice: 50
+    rentwith1home: 30
+    rentwith2homes: 90
+    rentwith3homes: 270
+    rentwith4homes: 400
+    rentwith1hotel: 550
+    allcolorsbought: 0
+    CanBuilt: 0
+    owner: {fileID: 0}
+    SameColour: []
+    SameC: 
+    isMortage: 0
+  - picture: 04.png
+    id: 4
+    sqid: 8
+    icon: {fileID: 21300000, guid: 694054c17e51ff349a6e52492d3c50ba, type: 3}
+    CardSquare: {fileID: 0}
+    price: 100
+    rent: 6
+    fullrent: 12
+    homesbuilt: 0
+    hotelsbuilt: 0
+    homeprice: 50
+    hotelprice: 50
+    rentwith1home: 30
+    rentwith2homes: 90
+    rentwith3homes: 270
+    rentwith4homes: 400
+    rentwith1hotel: 550
+    allcolorsbought: 0
+    CanBuilt: 0
+    owner: {fileID: 0}
+    SameColour: []
+    SameC: 
+    isMortage: 0
+  - picture: 05.png
+    id: 5
+    sqid: 9
+    icon: {fileID: 21300000, guid: c5afcb3fa3baf0a46968cdb826d2613a, type: 3}
+    CardSquare: {fileID: 0}
+    price: 120
+    rent: 8
+    fullrent: 16
+    homesbuilt: 0
+    hotelsbuilt: 0
+    homeprice: 50
+    hotelprice: 50
+    rentwith1home: 40
+    rentwith2homes: 100
+    rentwith3homes: 300
+    rentwith4homes: 450
+    rentwith1hotel: 600
+    allcolorsbought: 0
+    CanBuilt: 0
+    owner: {fileID: 0}
+    SameColour: []
+    SameC: 
+    isMortage: 0
+  - picture: 06.png
+    id: 6
+    sqid: 11
+    icon: {fileID: 21300000, guid: 4e4ee4a036853384bb5593c7600e4737, type: 3}
+    CardSquare: {fileID: 0}
+    price: 140
+    rent: 10
+    fullrent: 20
+    homesbuilt: 0
+    hotelsbuilt: 0
+    homeprice: 100
+    hotelprice: 100
+    rentwith1home: 50
+    rentwith2homes: 150
+    rentwith3homes: 450
+    rentwith4homes: 625
+    rentwith1hotel: 700
+    allcolorsbought: 0
+    CanBuilt: 0
+    owner: {fileID: 0}
+    SameColour: []
+    SameC: 
+    isMortage: 0
+  - picture: 07.png
+    id: 7
+    sqid: 13
+    icon: {fileID: 21300000, guid: e20cd573824632b4abf2916d4b4bcfb9, type: 3}
+    CardSquare: {fileID: 0}
+    price: 140
+    rent: 10
+    fullrent: 20
+    homesbuilt: 0
+    hotelsbuilt: 0
+    homeprice: 100
+    hotelprice: 100
+    rentwith1home: 50
+    rentwith2homes: 150
+    rentwith3homes: 450
+    rentwith4homes: 625
+    rentwith1hotel: 700
+    allcolorsbought: 0
+    CanBuilt: 0
+    owner: {fileID: 0}
+    SameColour: []
+    SameC: 
+    isMortage: 0
+  - picture: 08.png
+    id: 8
+    sqid: 14
+    icon: {fileID: 21300000, guid: 17b89c8d68b4b7d4d8e0dbf105d90093, type: 3}
+    CardSquare: {fileID: 0}
+    price: 160
+    rent: 12
+    fullrent: 24
+    homesbuilt: 0
+    hotelsbuilt: 0
+    homeprice: 100
+    hotelprice: 100
+    rentwith1home: 60
+    rentwith2homes: 180
+    rentwith3homes: 500
+    rentwith4homes: 700
+    rentwith1hotel: 900
+    allcolorsbought: 0
+    CanBuilt: 0
+    owner: {fileID: 0}
+    SameColour: []
+    SameC: 
+    isMortage: 0
+  - picture: 09.png
+    id: 9
+    sqid: 16
+    icon: {fileID: 21300000, guid: 6ebcbcdd9be39b144ae14d29cd76b981, type: 3}
+    CardSquare: {fileID: 0}
+    price: 180
+    rent: 14
+    fullrent: 28
+    homesbuilt: 0
+    hotelsbuilt: 0
+    homeprice: 100
+    hotelprice: 100
+    rentwith1home: 70
+    rentwith2homes: 200
+    rentwith3homes: 550
+    rentwith4homes: 750
+    rentwith1hotel: 950
+    allcolorsbought: 0
+    CanBuilt: 0
+    owner: {fileID: 0}
+    SameColour: []
+    SameC: 
+    isMortage: 0
+  - picture: 10.png
+    id: 10
+    sqid: 18
+    icon: {fileID: 21300000, guid: 2520feecadb35934ba42300747cab37a, type: 3}
+    CardSquare: {fileID: 0}
+    price: 180
+    rent: 14
+    fullrent: 28
+    homesbuilt: 0
+    hotelsbuilt: 0
+    homeprice: 100
+    hotelprice: 100
+    rentwith1home: 70
+    rentwith2homes: 200
+    rentwith3homes: 550
+    rentwith4homes: 750
+    rentwith1hotel: 950
+    allcolorsbought: 0
+    CanBuilt: 0
+    owner: {fileID: 0}
+    SameColour: []
+    SameC: 
+    isMortage: 0
+  - picture: 11.png
+    id: 11
+    sqid: 19
+    icon: {fileID: 21300000, guid: 824fa22b1a9e1654e906dd7d14ccbb5e, type: 3}
+    CardSquare: {fileID: 0}
+    price: 200
+    rent: 16
+    fullrent: 32
+    homesbuilt: 0
+    hotelsbuilt: 0
+    homeprice: 100
+    hotelprice: 100
+    rentwith1home: 80
+    rentwith2homes: 220
+    rentwith3homes: 600
+    rentwith4homes: 800
+    rentwith1hotel: 1000
+    allcolorsbought: 0
+    CanBuilt: 0
+    owner: {fileID: 0}
+    SameColour: []
+    SameC: 
+    isMortage: 0
+  - picture: 12.png
+    id: 12
+    sqid: 21
+    icon: {fileID: 21300000, guid: 42696a39ad3612c43bf3262395b197db, type: 3}
+    CardSquare: {fileID: 0}
+    price: 220
+    rent: 18
+    fullrent: 36
+    homesbuilt: 0
+    hotelsbuilt: 0
+    homeprice: 150
+    hotelprice: 150
+    rentwith1home: 90
+    rentwith2homes: 250
+    rentwith3homes: 700
+    rentwith4homes: 875
+    rentwith1hotel: 1050
+    allcolorsbought: 0
+    CanBuilt: 0
+    owner: {fileID: 0}
+    SameColour: []
+    SameC: 
+    isMortage: 0
+  - picture: 13.png
+    id: 13
+    sqid: 23
+    icon: {fileID: 21300000, guid: 8cefa61dbf8b30d4fba5d8345d08eb65, type: 3}
+    CardSquare: {fileID: 0}
+    price: 220
+    rent: 18
+    fullrent: 36
+    homesbuilt: 0
+    hotelsbuilt: 0
+    homeprice: 150
+    hotelprice: 150
+    rentwith1home: 90
+    rentwith2homes: 250
+    rentwith3homes: 700
+    rentwith4homes: 875
+    rentwith1hotel: 1050
+    allcolorsbought: 0
+    CanBuilt: 0
+    owner: {fileID: 0}
+    SameColour: []
+    SameC: 
+    isMortage: 0
+  - picture: 14.png
+    id: 14
+    sqid: 24
+    icon: {fileID: 21300000, guid: 939dbfd8f57635641acde6473c513994, type: 3}
+    CardSquare: {fileID: 0}
+    price: 240
+    rent: 20
+    fullrent: 40
+    homesbuilt: 0
+    hotelsbuilt: 0
+    homeprice: 150
+    hotelprice: 150
+    rentwith1home: 100
+    rentwith2homes: 300
+    rentwith3homes: 750
+    rentwith4homes: 925
+    rentwith1hotel: 1100
+    allcolorsbought: 0
+    CanBuilt: 0
+    owner: {fileID: 0}
+    SameColour: []
+    SameC: 
+    isMortage: 0
+  - picture: 15.png
+    id: 15
+    sqid: 26
+    icon: {fileID: 21300000, guid: e096cce24b552b746aceaa21c872ea9e, type: 3}
+    CardSquare: {fileID: 0}
+    price: 260
+    rent: 22
+    fullrent: 44
+    homesbuilt: 0
+    hotelsbuilt: 0
+    homeprice: 150
+    hotelprice: 150
+    rentwith1home: 110
+    rentwith2homes: 330
+    rentwith3homes: 800
+    rentwith4homes: 975
+    rentwith1hotel: 1150
+    allcolorsbought: 0
+    CanBuilt: 0
+    owner: {fileID: 0}
+    SameColour: []
+    SameC: 
+    isMortage: 0
+  - picture: 16.png
+    id: 16
+    sqid: 27
+    icon: {fileID: 21300000, guid: e469ebad114c5504caf97e2e4722d62c, type: 3}
+    CardSquare: {fileID: 0}
+    price: 260
+    rent: 22
+    fullrent: 44
+    homesbuilt: 0
+    hotelsbuilt: 0
+    homeprice: 150
+    hotelprice: 150
+    rentwith1home: 110
+    rentwith2homes: 330
+    rentwith3homes: 800
+    rentwith4homes: 975
+    rentwith1hotel: 1150
+    allcolorsbought: 0
+    CanBuilt: 0
+    owner: {fileID: 0}
+    SameColour: []
+    SameC: 
+    isMortage: 0
+  - picture: 17.png
+    id: 17
+    sqid: 29
+    icon: {fileID: 21300000, guid: d619523c628c0194d9db55e64b7d5d9e, type: 3}
+    CardSquare: {fileID: 0}
+    price: 280
+    rent: 24
+    fullrent: 48
+    homesbuilt: 0
+    hotelsbuilt: 0
+    homeprice: 150
+    hotelprice: 150
+    rentwith1home: 120
+    rentwith2homes: 360
+    rentwith3homes: 850
+    rentwith4homes: 1025
+    rentwith1hotel: 1200
+    allcolorsbought: 0
+    CanBuilt: 0
+    owner: {fileID: 0}
+    SameColour: []
+    SameC: 
+    isMortage: 0
+  - picture: 18.png
+    id: 18
+    sqid: 31
+    icon: {fileID: 21300000, guid: 383ab8294363a1248b8d36a865503fdd, type: 3}
+    CardSquare: {fileID: 0}
+    price: 300
+    rent: 26
+    fullrent: 52
+    homesbuilt: 0
+    hotelsbuilt: 0
+    homeprice: 200
+    hotelprice: 200
+    rentwith1home: 130
+    rentwith2homes: 390
+    rentwith3homes: 900
+    rentwith4homes: 1100
+    rentwith1hotel: 1275
+    allcolorsbought: 0
+    CanBuilt: 0
+    owner: {fileID: 0}
+    SameColour: []
+    SameC: 
+    isMortage: 0
+  - picture: 19.png
+    id: 19
+    sqid: 32
+    icon: {fileID: 21300000, guid: d998329a407009945a63d7745d52692b, type: 3}
+    CardSquare: {fileID: 0}
+    price: 300
+    rent: 26
+    fullrent: 52
+    homesbuilt: 0
+    hotelsbuilt: 0
+    homeprice: 200
+    hotelprice: 200
+    rentwith1home: 130
+    rentwith2homes: 390
+    rentwith3homes: 900
+    rentwith4homes: 1100
+    rentwith1hotel: 1275
+    allcolorsbought: 0
+    CanBuilt: 0
+    owner: {fileID: 0}
+    SameColour: []
+    SameC: 
+    isMortage: 0
+  - picture: 20.png
+    id: 20
+    sqid: 34
+    icon: {fileID: 21300000, guid: bd590a4c0603a7849a03c258a31221df, type: 3}
+    CardSquare: {fileID: 0}
+    price: 320
+    rent: 28
+    fullrent: 56
+    homesbuilt: 0
+    hotelsbuilt: 0
+    homeprice: 200
+    hotelprice: 200
+    rentwith1home: 150
+    rentwith2homes: 450
+    rentwith3homes: 1000
+    rentwith4homes: 1200
+    rentwith1hotel: 1400
+    allcolorsbought: 0
+    CanBuilt: 0
+    owner: {fileID: 0}
+    SameColour: []
+    SameC: 
+    isMortage: 0
+  - picture: 21.png
+    id: 21
+    sqid: 37
+    icon: {fileID: 21300000, guid: d2c89652dec363740ac67f0377e36f40, type: 3}
+    CardSquare: {fileID: 0}
+    price: 350
+    rent: 35
+    fullrent: 70
+    homesbuilt: 0
+    hotelsbuilt: 0
+    homeprice: 200
+    hotelprice: 200
+    rentwith1home: 175
+    rentwith2homes: 500
+    rentwith3homes: 1100
+    rentwith4homes: 1300
+    rentwith1hotel: 1500
+    allcolorsbought: 0
+    CanBuilt: 0
+    owner: {fileID: 0}
+    SameColour: []
+    SameC: 
+    isMortage: 0
+  - picture: 22.png
+    id: 22
+    sqid: 39
+    icon: {fileID: 21300000, guid: 0334731ef47e28741928068a2c928194, type: 3}
+    CardSquare: {fileID: 0}
+    price: 400
+    rent: 50
+    fullrent: 100
+    homesbuilt: 0
+    hotelsbuilt: 0
+    homeprice: 200
+    hotelprice: 200
+    rentwith1home: 200
+    rentwith2homes: 600
+    rentwith3homes: 1400
+    rentwith4homes: 1700
+    rentwith1hotel: 2000
+    allcolorsbought: 0
+    CanBuilt: 0
+    owner: {fileID: 0}
+    SameColour: []
+    SameC: 
+    isMortage: 0
+  specialCardList:
+  - picture: apofasi1
+    id: 23
+    sqid: -1
+    icon: {fileID: 0}
+    CardSquare: {fileID: 0}
+    cardType: apofasi
+  - picture: apofasi2
+    id: 24
+    sqid: -1
+    icon: {fileID: 0}
+    CardSquare: {fileID: 0}
+    cardType: apofasi
+  - picture: Entoli1
+    id: 25
+    sqid: -2
+    icon: {fileID: 0}
+    CardSquare: {fileID: 0}
+    cardType: entoli
+  - picture: Entoli2
+    id: 26
+    sqid: -2
+    icon: {fileID: 0}
+    CardSquare: {fileID: 0}
+    cardType: entoli
+  - picture: gotoJail_s
+    id: 27
+    sqid: 30
+    icon: {fileID: 0}
+    CardSquare: {fileID: 0}
+    cardType: 
+  - picture: Entoli_s1
+    id: 28
+    sqid: 2
+    icon: {fileID: 0}
+    CardSquare: {fileID: 0}
+    cardType: 
+  - picture: Entoli_s2
+    id: 29
+    sqid: 17
+    icon: {fileID: 0}
+    CardSquare: {fileID: 0}
+    cardType: 
+  - picture: Entoli_s3
+    id: 30
+    sqid: 33
+    icon: {fileID: 0}
+    CardSquare: {fileID: 0}
+    cardType: 
+  - picture: Apofasi_s1
+    id: 31
+    sqid: 7
+    icon: {fileID: 0}
+    CardSquare: {fileID: 0}
+    cardType: 
+  - picture: Apofasi_s2
+    id: 32
+    sqid: 22
+    icon: {fileID: 0}
+    CardSquare: {fileID: 0}
+    cardType: 
+  - picture: Apofasi_s3
+    id: 33
+    sqid: 36
+    icon: {fileID: 0}
+    CardSquare: {fileID: 0}
+    cardType: 
+  - picture: Tax1_s
+    id: 34
+    sqid: 4
+    icon: {fileID: 0}
+    CardSquare: {fileID: 0}
+    cardType: 
+  - picture: Tax2_s
+    id: 35
+    sqid: 38
+    icon: {fileID: 0}
+    CardSquare: {fileID: 0}
+    cardType: 
